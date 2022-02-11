@@ -1,0 +1,43 @@
+<div class="container">
+  {{!-- <h1>MySQL Database Integration and Select Data</h1> --}}
+  <h2>{{title}}</h2>
+  <a href="/create-form" class="btn btn-success">Create Product</a>
+  <br /><br />
+  <table class="table">
+    <tr>
+      <th>First Name</th>
+      <th>Middle Name</th>
+      <th>Last Name</th>
+      <th>Date of Birth</th>
+      <th>Gender</th>
+      <th>Basic</th>
+      <th>Allowances</th>
+      <th>Deduction</th>
+      <th>Net Salary</th>
+      <th colspan="2">Action</th>
+    </tr>
+    {{!-- {{#if employees}} --}}
+    {{#each employees}}
+      <tr>
+        <td>{{this.First_name}}</td>
+        <td>{{this.Middle_name}}</td>
+        <td>{{this.Last_name}}</td>
+        <td>{{this.DOB}}</td>
+        <td>{{this.Gender}}</td>
+        <td>{{this.Basic}}</td>
+        <td>{{this.Allowance}}</td>
+        <td>{{this.Deduction}}</td>
+        <td>{{this.Net_Salary}}</td>
+        <td>
+            <a href="/edit-form/{{this.Empid}}" class="btn btn-info btn-sm">Edit</a>
+            <a href="/delete/{{this.Empid}}" class="btn btn-danger btn-sm">Delete</a>
+        </td>
+      </tr>
+    {{/each}}
+    {{!-- {{else}}
+        <tr>
+            <td colspan="3"><p>No Data Added</p></td>
+        </tr>
+    {{/if}} --}}
+  </table>
+</div>

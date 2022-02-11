@@ -1,0 +1,66 @@
+<a href="/">BACK TO HOME PAGE</a><br><br>
+<div class="container">
+  <h1>{{title}}</h1>
+  <hr />
+  <div class="row">
+    <div class="col-md-6">
+       <form action="/edit/{{employee.Empid}}" method="post" name="myform" id="myform" onsubmit="return validateform()">
+         <div class="form-group">
+              <label for="fname">First Name:</label>
+              <input type="text" name="fname" id="fname" class="form-control" value='{{employee.First_name}}' placeholder="First Name"  />
+              <label id="firstnamemsg">Name is required</label>
+          </div>
+           <div class="form-group">
+              <label for="mname">Middle Name:</label>
+              <input type="text" name="mname" id="mname" class="form-control" placeholder="Middle Name"  value='{{employee.Middle_name}}' />
+              <label id="middlenamemsg">Name is required</label>
+          </div>
+           <div class="form-group">
+              <label for="lname">Last Name:</label>
+              <input type="text" name="lname" id="lname" class="form-control" placeholder="Last Name"  value='{{employee.Last_name}}'/>
+              <label id="lastnamemsg">Name is required</label>
+          </div>
+          <div class="form-group">
+              <label for="dob">Date of Birth:</label><br>
+              <input type="date" name="dob" id="dob" class="form-control" value='{{employee.DOB}}'/>
+              <label id="dobmsg">Please select the dob</label>
+          </div>
+           <div class="form-group">
+              <label for="gender">Gender:</label>&nbsp;<br>
+              <input type="radio" name="gender" id="male"  value="M" /> Male &nbsp;
+              <input type="radio" name="gender" id="female"  value="F"  /> Female &nbsp;<br>
+              <label id="gendermsg">Please select gender</label>
+          </div>
+          </div>
+         <div class="col-md-6">
+          <div class="form-group">
+                    <div class="form-group">
+                         <label for="basic">Basic:</label>
+                         <input type="text" id="basic" class="form-control" placeholder="Basic" name="basic" onkeyup="sum()" value='{{employee.Basic}}'><br>
+                         <label id="basicmsg">Basic is required</label>
+                    </div>
+               <div class="form-group">
+                   <label for="allowances">Allowances:</label>
+                   <input type="text" id="allowances" class="form-control" placeholder="Allowances" name="allowances" onkeyup="sum()" value='{{employee.Allowance}}'><br>
+                   <label id="allowancesmsg">Allowances is required</label>
+               </div>
+               <div class="form-group">
+                   <label for="deduction">Deduction:</label>
+                   <input type="text" id="deduction" class="form-control" placeholder="Deduction" name="deduction" onkeyup="sum()" value='{{employee.Deduction}}'><br>
+                   <label id="deductionmsg">Deduction is required</label>
+               </div>
+               <div class="form-group">
+                   <label>Net Salary:</label>
+                   <input type="text" id="net_salary" class="form-control" readonly value='{{employee.Net_Salary}}'><br>
+               </div>
+          </div>
+         </div>
+         <div class="col-md-6">
+          <div class="form-group">
+              <button class="btn btn-info" id="savebtn">Update</button>
+              <button class="btn btn-danger" hidden id="cancelbtn">Cancel</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "6203b9ce6eae388ebd88b20c"
+  },
+  "name": "Harry Potter and the Order of the Phoenix",
+  "img": "https://bit.ly/2IcnSwz",
+  "summary": "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203ba386eae388ebd88b210"
+  },
+  "name": "The Lord of the Rings: The Fellowship of the Ring",
+  "img": "https://bit.ly/2tC1Lcg",
+  "summary": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203bacd6eae388ebd88b213"
+  },
+  "name": "Avengers: Endgame",
+  "img": "https://bit.ly/2Pzczlb",
+  "summary": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile,the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203bca66eae388ebd88b217"
+  },
+  "name": "The Dark Knight",
+  "img": "https://rb.gy/uox3uk",
+  "summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203be086eae388ebd88b21a"
+  },
+  "name": "Nightcrawler",
+  "img": "https://rb.gy/fkoihw",
+  "summary": "Nightcrawler is a 2014 American neo-noir psychological thriller film written and directed by Dan Gilroy in his directorial debut. It stars Jake Gyllenhaal as Louis Lou Bloom, a stringer who records violent events late at night in Los Angeles and sells the footage to a local television news station. Rene Russo, Riz Ahmed, and Bill Paxton also star. A common theme in the film is the symbiotic relationship between unethical journalism and consumer demand.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203befe6eae388ebd88b21d"
+  },
+  "name": "Captain America: The Winter Soldier",
+  "img": "https://rb.gy/dmssjx",
+  "summary": "Captain America: The Winter Soldier is a 2014 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and the ninth film in the Marvel Cinematic Universe (MCU). The film was directed by Anthony and Joe Russo from a screenplay by the writing team of Christopher Markus and Stephen McFeely. It stars Chris Evans as Steve Rogers / Captain America alongside Scarlett Johansson, Sebastian Stan, Anthony Mackie, Cobie Smulders, Frank Grillo, Emily VanCamp, Hayley Atwell, Robert Redford, and Samuel L. Jackson. In the film, Captain America joins forces with Black Widow (Johansson) and Falcon (Mackie) to uncover a conspiracy within the spy agency S.H.I.E.L.D. while facing a mysterious assassin known as the Winter Soldier (Stan).",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203c0676eae388ebd88b220"
+  },
+  "name": "Joker",
+  "img": "https://rb.gy/q2ed0c",
+  "summary": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203c19e6eae388ebd88b223"
+  },
+  "name": "The Departed",
+  "img": "https://rb.gy/dk8k5s",
+  "summary": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203c2b76eae388ebd88b226"
+  },
+  "name": "Django Unchained",
+  "img": "https://rb.gy/ogi66g",
+  "summary": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203c44f6eae388ebd88b22c"
+  },
+  "name": "Heat",
+  "img": "https://rb.gy/8ydfnn",
+  "summary": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a clue at their latest heist.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6203c5526eae388ebd88b22f"
+  },
+  "name": "A Few Good Men",
+  "img": "https://rb.gy/l2odsu",
+  "summary": "Military lawyer Lieutenant Daniel Kaffee defends Marines accused of murder. They contend they were acting under orders.",
+  "__v": 0
+}]
